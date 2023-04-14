@@ -1,0 +1,54 @@
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.daily-item-button{
+    background-color: aliceblue;
+    border-radius: 5px;
+    height:40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size:14px;
+    padding:5px 20px;
+}
+
+.daily-icon-weather{
+    width:40px;
+}
+
+.day{
+   flex:1 1;
+   font-weight: 600;
+   margin-left: 15px;
+
+}
+
+.description{
+    flex:1 1;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.temp-range{
+    color: gray;
+}
+
+.daily-item-panel{
+    width: 350px;
+    height:auto;
+    /* margin:20px auto; */
+    border-radius: 5px;
+    box-shadow: 10px -2px 30px 2px rgb(0 0 0 /10%);
+    margin: 20px auto;
+    padding:2%;
+}
+
+.daily-item-panel-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
